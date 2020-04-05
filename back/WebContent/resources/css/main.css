@@ -1,0 +1,130 @@
+/*
+body	{
+	background-image : url('/TaskListManager/resources/img/back.png'); // this shit relative to css location or use absolute path from /AppName/ without WebContent to more  information look at project Deployment Assembly 
+}
+*/
+
+button {
+	margin : 10px;
+}
+div.bordered {
+	border : 1px solid black;
+}
+#canvas {
+	border: 1px solid black;
+	background-color:#ffffff;
+	border-radius: 20px;
+}
+.header {
+	background-color : orange;
+	width : 100%;
+	font-size : 18pt;
+	border-top-right-radius : 11px;
+	border-top-left-radius : 11px;
+	display : block;
+
+}
+.content {
+	width : 100%;
+	display : block;
+}
+.main {
+	min-width : 800px;
+	min-height: 300px;
+	max-width : 80%;
+	border : 4px double black;
+	border-radius : 15px;
+	display : inline-block;  
+	background-color : white;
+}
+.headerpart {
+	margin : auto;
+	padding : 2px 6px 2px ;
+	width : 30%
+	display : block;
+}
+#stud {
+	float : left;
+	text-align : left;
+}
+#group {
+	margin : 0;
+	text-align : center;
+}
+#var {
+	float : right;
+	text-align : right;
+}
+.contentpart {
+	margin : 0;
+	padding : 2px 6px 2px;
+	display : block;
+}
+#leftpart {
+	text-align : left;
+	float : left;
+	width : 60%;
+	display : block;
+}
+#pad {
+	min-height : 150px;
+}
+#redirect {
+	font-size : 32px;
+}
+#time {
+	text-align : right;
+	float : right;
+	vertical-allign : text-bottom;
+}
+.inputContent {
+	padding : 20px;
+}
+
+@media (max-width: 800px) {
+	html {
+		width: all;
+	}
+	body {
+		position: fixed;
+		width: 100%
+	}
+	button {
+		margin: 0px;
+		margin-bottom: 0px;
+	}
+	.container-fluid{
+	  width: 100%;
+	  vertical-align: top;
+	}
+	.main {
+		width: 100%;
+	}
+	.header {
+		width: 100%;
+	}
+}
+@media (min-width: 800px) {
+.container-fluid{
+  max-width: 800px;
+  padding: 0px;
+}
+.main{
+	min-width : 800px;
+	min-height: 300px;
+	display : inline-block;  
+	background-color : white;
+}
+body {
+	background-image: url("/TaskListManager/resources/img/back.png");
+}
+.main {
+	border: 4px double black;
+	border-top-right-radius : 14px;
+	border-top-left-radius : 14px;
+}
+.header {
+	border-top-right-radius : 11px;
+	border-top-left-radius : 11px;
+}
+ }
